@@ -1,0 +1,154 @@
+/* font-family: 'Bebas Neue', cursive; - brand
+font-family: 'Luxurious Roman', cursive; - character info para
+font-family: 'Open Sans Condensed', sans-serif; - Navbar's link
+font-family: 'The Nautigal', cursive; - char name*/
+
+
+.bg-red {
+    background: #F90716;
+}
+
+.bg-yellow {
+    background: #FFCA03;
+}
+
+.navbar .navbar-brand {
+    font-family: 'Bebas Neue', cursive;
+    color: #FFF323;
+    background: #FF5403;
+    border: #FFF323 solid 1px;
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+.navbar .navbar-brand:hover {
+    font-family: 'Bebas Neue', cursive;
+    color: #FFCA03;
+}
+
+.navbar .navbar-brand:visited {
+    font-family: 'Bebas Neue', cursive;
+    color: #FFCA03;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #FFF323;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #FFCa03;
+    font-weight: bold;
+    opacity: 0.9;
+}
+
+.navbar-light .navbar-nav .nav-link:visited {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #FFCa03;
+    font-weight: bold;
+    opacity: 1;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    background: #FF5403;
+}
+
+.dropdown-header {
+    background: #FF5403;
+    color: #FFF323;
+    margin: 0;
+}
+
+.dropdown-item {
+    background: #FFCA03;
+    color: #F90716;
+}
+
+.carousel-item {
+    background: radial-gradient(#F90716, #ff5403, #FFCA03, #FFF323);
+}
+
+.carousel-item>img {
+    opacity: 0.5;
+}
+
+.carousel-caption {
+    color: #ff5403;
+    opacity: 0.7;
+}
+
+
+.container h1 {
+    text-align: center;
+    padding: 10px 20px;
+    color: #F90716;
+}
+
+.container>.row {
+    margin-bottom: 20px;
+    justify-content: space-around;
+}
+
+.charinfo {
+    background-color: rgba(255, 243, 35, 0.9);
+    text-align: center;
+    border: solid 1px #FF5403;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.charinfo>h2 {
+    color: #FF5403;
+    font-family: 'The Nautigal', cursive;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 2.5em;
+}
+
+.charinfo>p {
+    color: #F90716;
+    font-family: 'Luxurious Roman', cursive;
+}
+
+.description {
+    padding: 10px;
+}
+
+.description>.row>h1 {
+    text-align: left;
+    color: #FF5403;
+    font-family: 'The Nautigal', cursive;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 5em;
+}
+
+#author {
+    text-align: left;
+    color: #FF5403;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 3em;
+}
+
+.description>.row>p {
+    color: #F90716;
+    font-size: 2em;
+    margin: auto;
+    font-family: 'Luxurious Roman', cursive;
+}
+
+footer > .row > p{
+    margin: 0;
+    font-size: 1.25em;
+    color: #FFF323;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+}
+
+#copyright{
+    font-size: 2em;
+}
